@@ -1,7 +1,7 @@
 Username and Password for Login:
 
-Username: Admin
-Password: 123
+-Username: Admin
+-Password: 123
 This project is a team effort involving five members.
 
 This project, undertaken for the "Database System" course, involves developing a system for an imaginary restaurant named "Rise and Dine" to manage its various departments. The system focuses on five departments and aims to implement a database that can store, view, update, and delete data for each department. The features for each department are similar because the system is used for course evaluation. Although the main functions are similar, the tables to store data are different.
