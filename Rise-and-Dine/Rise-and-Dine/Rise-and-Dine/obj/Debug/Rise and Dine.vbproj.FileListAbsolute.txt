@@ -1,0 +1,42 @@
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise and Dine.vbproj.AssemblyReference.cache
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise and Dine.vbproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.EmployeeAccount.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.EmployeePayment.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Finance.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.FoodAndBeverage.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Hiring.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.HumanResource.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Leaves.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Performance.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.ProductClassForm2.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Purchase.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Inventory.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.InventoryDetails.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.InventoryMenu.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Invoice.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Item.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Login.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.MainMenu.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Resources.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.OrderDetails.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Orders.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Payment.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Product.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.PurchaseOrderForm2.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Report.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Category.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Supplier.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.Training.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise and Dine.vbproj.GenerateResource.cache
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise and Dine.vbproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise and Dine.xml
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\bin\Debug\Rise and Dine.exe.config
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\bin\Debug\Rise and Dine.exe
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\bin\Debug\Rise and Dine.pdb
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\bin\Debug\Rise and Dine.xml
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise and Dine.exe
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise and Dine.pdb
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.InventorySupplierView.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.InventorySummary.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.LeavesTraining.resources
+C:\Users\User\Desktop\Rise and Dine\Rise and Dine\Rise and Dine\obj\Debug\Rise_and_Dine.PurchaseOrderSummary.resources
