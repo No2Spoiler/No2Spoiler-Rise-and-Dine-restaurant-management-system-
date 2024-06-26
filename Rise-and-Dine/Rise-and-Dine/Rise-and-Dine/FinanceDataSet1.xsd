@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FinanceDataSet1" targetNamespace="http://tempuri.org/FinanceDataSet1.xsd" xmlns:mstns="http://tempuri.org/FinanceDataSet1.xsd" xmlns="http://tempuri.org/FinanceDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="FinanceConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FinanceConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Rise_and_Dine.My.MySettings.GlobalReference.Default.FinanceConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PurchaseOrderSummaryTableAdapter" GeneratorDataComponentClassName="PurchaseOrderSummaryTableAdapter" Name="PurchaseOrderSummary" UserDataComponentName="PurchaseOrderSummaryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FinanceConnectionString (MySettings)" DbObjectName="Finance.dbo.PurchaseOrderSummary" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Product Id], [Product Name], [Employee Id], [Employee Name], [Supplier Id], [Supplier Name] FROM dbo.PurchaseOrderSummary</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Product Id" DataSetColumn="Product Id" />
+              <Mapping SourceColumn="Product Name" DataSetColumn="Product Name" />
+              <Mapping SourceColumn="Employee Id" DataSetColumn="Employee Id" />
+              <Mapping SourceColumn="Employee Name" DataSetColumn="Employee Name" />
+              <Mapping SourceColumn="Supplier Id" DataSetColumn="Supplier Id" />
+              <Mapping SourceColumn="Supplier Name" DataSetColumn="Supplier Name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FinanceDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="FinanceDataSet1" msprop:Generator_DataSetName="FinanceDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PurchaseOrderSummary" msprop:Generator_RowEvHandlerName="PurchaseOrderSummaryRowChangeEventHandler" msprop:Generator_RowDeletedName="PurchaseOrderSummaryRowDeleted" msprop:Generator_RowDeletingName="PurchaseOrderSummaryRowDeleting" msprop:Generator_RowEvArgName="PurchaseOrderSummaryRowChangeEvent" msprop:Generator_TablePropName="PurchaseOrderSummary" msprop:Generator_RowChangedName="PurchaseOrderSummaryRowChanged" msprop:Generator_RowChangingName="PurchaseOrderSummaryRowChanging" msprop:Generator_TableClassName="PurchaseOrderSummaryDataTable" msprop:Generator_RowClassName="PurchaseOrderSummaryRow" msprop:Generator_TableVarName="tablePurchaseOrderSummary" msprop:Generator_UserTableName="PurchaseOrderSummary">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Product_x0020_Id" msprop:Generator_ColumnPropNameInRow="Product_Id" msprop:Generator_ColumnPropNameInTable="Product_IdColumn" msprop:Generator_ColumnVarNameInTable="columnProduct_Id" msprop:Generator_UserColumnName="Product Id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Product_x0020_Name" msprop:Generator_ColumnPropNameInRow="Product_Name" msprop:Generator_ColumnPropNameInTable="Product_NameColumn" msprop:Generator_ColumnVarNameInTable="columnProduct_Name" msprop:Generator_UserColumnName="Product Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Employee_x0020_Id" msprop:Generator_ColumnPropNameInRow="Employee_Id" msprop:Generator_ColumnPropNameInTable="Employee_IdColumn" msprop:Generator_ColumnVarNameInTable="columnEmployee_Id" msprop:Generator_UserColumnName="Employee Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Employee_x0020_Name" msprop:Generator_ColumnPropNameInRow="Employee_Name" msprop:Generator_ColumnPropNameInTable="Employee_NameColumn" msprop:Generator_ColumnVarNameInTable="columnEmployee_Name" msprop:Generator_UserColumnName="Employee Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Supplier_x0020_Id" msprop:Generator_ColumnPropNameInRow="Supplier_Id" msprop:Generator_ColumnPropNameInTable="Supplier_IdColumn" msprop:Generator_ColumnVarNameInTable="columnSupplier_Id" msprop:Generator_UserColumnName="Supplier Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Supplier_x0020_Name" msprop:Generator_ColumnPropNameInRow="Supplier_Name" msprop:Generator_ColumnPropNameInTable="Supplier_NameColumn" msprop:Generator_ColumnVarNameInTable="columnSupplier_Name" msprop:Generator_UserColumnName="Supplier Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

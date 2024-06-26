@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LeavesTrainingDataset" targetNamespace="http://tempuri.org/LeavesTrainingDataset.xsd" xmlns:mstns="http://tempuri.org/LeavesTrainingDataset.xsd" xmlns="http://tempuri.org/LeavesTrainingDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="FinanceConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FinanceConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Rise_and_Dine.My.MySettings.GlobalReference.Default.FinanceConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EmployeeLeaveTrainingViewTableAdapter" GeneratorDataComponentClassName="EmployeeLeaveTrainingViewTableAdapter" Name="EmployeeLeaveTrainingView" UserDataComponentName="EmployeeLeaveTrainingViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FinanceConnectionString (MySettings)" DbObjectName="Finance.dbo.EmployeeLeaveTrainingView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Employee Id], [Employee Name], [Leave Id], [Leave Start Date], [Leave End Date], [Leave Type], Reason, [Training Id], [Training Date], [Training Name], Trainer FROM dbo.EmployeeLeaveTrainingView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Employee Id" DataSetColumn="Employee Id" />
+              <Mapping SourceColumn="Employee Name" DataSetColumn="Employee Name" />
+              <Mapping SourceColumn="Leave Id" DataSetColumn="Leave Id" />
+              <Mapping SourceColumn="Leave Start Date" DataSetColumn="Leave Start Date" />
+              <Mapping SourceColumn="Leave End Date" DataSetColumn="Leave End Date" />
+              <Mapping SourceColumn="Leave Type" DataSetColumn="Leave Type" />
+              <Mapping SourceColumn="Reason" DataSetColumn="Reason" />
+              <Mapping SourceColumn="Training Id" DataSetColumn="Training Id" />
+              <Mapping SourceColumn="Training Date" DataSetColumn="Training Date" />
+              <Mapping SourceColumn="Training Name" DataSetColumn="Training Name" />
+              <Mapping SourceColumn="Trainer" DataSetColumn="Trainer" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LeavesTrainingDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="LeavesTrainingDataset" msprop:Generator_DataSetName="LeavesTrainingDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EmployeeLeaveTrainingView" msprop:Generator_RowEvHandlerName="EmployeeLeaveTrainingViewRowChangeEventHandler" msprop:Generator_RowDeletedName="EmployeeLeaveTrainingViewRowDeleted" msprop:Generator_RowDeletingName="EmployeeLeaveTrainingViewRowDeleting" msprop:Generator_RowEvArgName="EmployeeLeaveTrainingViewRowChangeEvent" msprop:Generator_TablePropName="EmployeeLeaveTrainingView" msprop:Generator_RowChangedName="EmployeeLeaveTrainingViewRowChanged" msprop:Generator_RowChangingName="EmployeeLeaveTrainingViewRowChanging" msprop:Generator_TableClassName="EmployeeLeaveTrainingViewDataTable" msprop:Generator_RowClassName="EmployeeLeaveTrainingViewRow" msprop:Generator_TableVarName="tableEmployeeLeaveTrainingView" msprop:Generator_UserTableName="EmployeeLeaveTrainingView">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Employee_x0020_Id" msprop:Generator_ColumnPropNameInRow="Employee_Id" msprop:Generator_ColumnPropNameInTable="Employee_IdColumn" msprop:Generator_ColumnVarNameInTable="columnEmployee_Id" msprop:Generator_UserColumnName="Employee Id" type="xs:int" />
+              <xs:element name="Employee_x0020_Name" msprop:Generator_ColumnPropNameInRow="Employee_Name" msprop:Generator_ColumnPropNameInTable="Employee_NameColumn" msprop:Generator_ColumnVarNameInTable="columnEmployee_Name" msprop:Generator_UserColumnName="Employee Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Leave_x0020_Id" msprop:Generator_ColumnPropNameInRow="Leave_Id" msprop:Generator_ColumnPropNameInTable="Leave_IdColumn" msprop:Generator_ColumnVarNameInTable="columnLeave_Id" msprop:Generator_UserColumnName="Leave Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Leave_x0020_Start_x0020_Date" msprop:Generator_ColumnPropNameInRow="Leave_Start_Date" msprop:Generator_ColumnPropNameInTable="Leave_Start_DateColumn" msprop:Generator_ColumnVarNameInTable="columnLeave_Start_Date" msprop:Generator_UserColumnName="Leave Start Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Leave_x0020_End_x0020_Date" msprop:Generator_ColumnPropNameInRow="Leave_End_Date" msprop:Generator_ColumnPropNameInTable="Leave_End_DateColumn" msprop:Generator_ColumnVarNameInTable="columnLeave_End_Date" msprop:Generator_UserColumnName="Leave End Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Leave_x0020_Type" msprop:Generator_ColumnPropNameInRow="Leave_Type" msprop:Generator_ColumnPropNameInTable="Leave_TypeColumn" msprop:Generator_ColumnVarNameInTable="columnLeave_Type" msprop:Generator_UserColumnName="Leave Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reason" msprop:Generator_ColumnPropNameInRow="Reason" msprop:Generator_ColumnPropNameInTable="ReasonColumn" msprop:Generator_ColumnVarNameInTable="columnReason" msprop:Generator_UserColumnName="Reason" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Training_x0020_Id" msprop:Generator_ColumnPropNameInRow="Training_Id" msprop:Generator_ColumnPropNameInTable="Training_IdColumn" msprop:Generator_ColumnVarNameInTable="columnTraining_Id" msprop:Generator_UserColumnName="Training Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Training_x0020_Date" msprop:Generator_ColumnPropNameInRow="Training_Date" msprop:Generator_ColumnPropNameInTable="Training_DateColumn" msprop:Generator_ColumnVarNameInTable="columnTraining_Date" msprop:Generator_UserColumnName="Training Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Training_x0020_Name" msprop:Generator_ColumnPropNameInRow="Training_Name" msprop:Generator_ColumnPropNameInTable="Training_NameColumn" msprop:Generator_ColumnVarNameInTable="columnTraining_Name" msprop:Generator_UserColumnName="Training Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Trainer" msprop:Generator_ColumnPropNameInRow="Trainer" msprop:Generator_ColumnPropNameInTable="TrainerColumn" msprop:Generator_ColumnVarNameInTable="columnTrainer" msprop:Generator_UserColumnName="Trainer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:EmployeeLeaveTrainingView" />
+      <xs:field xpath="mstns:Employee_x0020_Id" />
+      <xs:field xpath="mstns:Leave_x0020_Id" />
+      <xs:field xpath="mstns:Training_x0020_Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
